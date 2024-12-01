@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气查询工具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <input type="text" id="cityInput" placeholder="输入城市名称（英文）">
+        <button onclick="fetchWeather()">查询天气</button>
+        <div id="weatherResult"></div>
+        <button onclick="toggleTempUnit()">切换温度单位</button>
+        
+    </div>
+    <script src="sc.js"></script>
+</body>
+</html>
